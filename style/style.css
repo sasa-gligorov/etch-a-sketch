@@ -20,6 +20,10 @@ table, td {
 	background-color: black;
 }
 
+table:hover {
+	cursor: none;
+}
+
 .gray {
 	background-color: gray;
 }
