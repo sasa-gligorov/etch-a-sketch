@@ -18,6 +18,6 @@ function createTable(size){
 }
 
 $(document).ready(function(){
-	createTable(32);
+	createTable(16);
 	draw();
 });
