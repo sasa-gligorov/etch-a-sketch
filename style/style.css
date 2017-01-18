@@ -1,10 +1,28 @@
+body {
+	background-color: #d0e3f7;
+/*	height: 100%;
+	position: relative;*/
+}
+
+.main-container {
+	width: 600px;
+	height: 630px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: #ffffff;
+	box-shadow: 7px 7px 10px 0px #777777;
+}
+
 .buttons {
 	text-align: center;
-	padding: 10px;
 }
 
 .etch-screen {
-	padding: 10px;
+	padding-top: 45px;
 }
 
 table {
@@ -36,7 +54,15 @@ table:hover {
 	background-color: black;
 }
 
-
 .white {
 	background-color: white;
+}
+
+.gridSize {
+	margin: auto;
+	padding: 0 0 0 0;
+	width: 500px;
+	text-align: right;
+	font-size: 9pt;
+	color: gray;
 }
