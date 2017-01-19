@@ -10,7 +10,7 @@ var srb = [
 	"Избриши",
 	"Величина мреже"];
 
-var currentLanguage = eng;
+var currentLanguage = srb;
 
 function srpski() {
 	currentLanguage = srb;
