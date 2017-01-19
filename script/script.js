@@ -63,7 +63,6 @@ function createTable(sideSize){
 
 function clearScreen(){
 	$(".pixel").css("opacity", "0");
-	// draw();	
 }
 
 function gridSize(){

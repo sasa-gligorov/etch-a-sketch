@@ -1,7 +1,5 @@
 body {
 	background-color: #d0e3f7;
-/*	height: 100%;
-	position: relative;*/
 }
 
 .main-container {
@@ -12,7 +10,7 @@ body {
 	margin-right: auto;
 	left: 0;
 	right: 0;
-	top: 0;
+	top: 20px;
 	background-color: #ffffff;
 	box-shadow: 7px 7px 10px 0px #777777;
 }
