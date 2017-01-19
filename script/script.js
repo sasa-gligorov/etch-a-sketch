@@ -34,8 +34,10 @@ function draw(){
 		$(this).css("opacity", 1);
 	});
 	$(".pixel").mouseleave(function(){
-		if(x < 1)
+		if(x < 1){
 			x = x + 0.2;
+
+		}
 		$(this).css("opacity", x);
 	});
 }
@@ -61,7 +63,7 @@ function createTable(sideSize){
 
 function clearScreen(){
 	$(".pixel").css("opacity", "0");
-	draw();	
+	// draw();	
 }
 
 function gridSize(){
