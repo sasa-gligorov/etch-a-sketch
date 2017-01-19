@@ -9,11 +9,18 @@
 </head>
 <body>
 	<div class="main-container">
+		<img src="images/uk.png" title="English" onclick="english()">
+		<img src="images/srb.png" title="Српски" onclick="srpski()">
 		<div class="etch-screen">
 			<table class="sketch-pixels">
 				
 			</table><!--sketch-pixels-->
-		</div><!--etch-screen-->		
+			<div class="gridSize"></div>
+		</div><!--etch-screen-->
+		<div class="buttons">
+			<button class="clear" onclick="clearScreen()">Clear</button>
+			<button class="size" onclick="gridSize()">Grid Size</button>
+		</div><!--buttons-->	
 	</div><!--main-container-->
 	<script type="text/javascript" src="script/script.js"></script>
 </body>
