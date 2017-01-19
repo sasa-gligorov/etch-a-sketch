@@ -5,12 +5,27 @@ var eng = [
 	"Grid Size"];
 
 var srb = [
-	"Unesi broj kvadrata po stranici za novu mrežu.",
-	"Unesi broj između 1 i 64.",
-	"Izbriši",
-	"Veličina mreže"];
+	"Унеси број квадрата по страници за нову мрежу.",
+	"Унеси број између 1 и 64.",
+	"Избриши",
+	"Величина мреже"];
 
 var currentLanguage = eng;
+
+function srpski() {
+	currentLanguage = srb;
+	changeLanguage();
+}
+
+function english() {
+	currentLanguage = eng;
+	changeLanguage();
+}
+
+function changeLanguage() {
+	$(".clear").text(currentLanguage[2]);
+	$(".size").text(currentLanguage[3]);
+}
 
 function draw(){
 	var x = 0;
@@ -62,8 +77,7 @@ function gridSize(){
 }
 
 $(document).ready(function(){
-	$(".clear").text(currentLanguage[2]);
-	$(".size").text(currentLanguage[3]);
 	createTable(16);
+	changeLanguage();
 	draw();
 });
